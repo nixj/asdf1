@@ -1,12 +1,12 @@
 body {
 	width: 850px;
-	height: 1350px;
+	height: 1600px;
 	border-style: solid;
 	border-width: 2px;
 	border-color: #3CF;
 	margin: 15px auto;
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size: 16px;
+	background-image: url(../images/bg.png)
 }
 
 container {
@@ -16,41 +16,39 @@ container {
 	padding-top: 10px;
 	padding-left: 15px;
 	padding-bottom: 15px;
-	text-align: left;
-	line-height: 58px;
+}
+
+h1 {
 	font-family: "911 Porscha";
-	color: #090;
+	color: #C3C;
 	font-size: 24px;
+	text-align: left;
+	line-height: normal;
+	text-shadow: 2px 2px #000;
 }
 
 nav {
-	width: 365px;
+	width: 330px;
 	float: left;
 	padding-top: 25px;
 }
 
 ul {
-	width: 500px;
-	background: white;
+	width: 450px;
 	margin: 0 auto;
 	list-style-type: none;
 	display: inline;
-	overflow: hidden;
-}
-
-li {
-	width: 110px;
-	background: #fff;
 	float: left;
-	text-align: center;
+	overflow: hidden;
 }
 
 a {
 	text-decoration: none;
-	background: #fff;
 	display: block;
+	width: 110px;
 	line-height: 30px;
 	text-align: center;
+	float: left;
 	color: #C3C;
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 16px;
@@ -73,8 +71,8 @@ intro {
 	border-width: 2px;
 	border-color: #3CF;
 	background-color: #0CF;
-	box-shadow: 2px #000;
 	float: left;
+	box-shadow: 5px 5px 2px #000;
 }
 
 character {
@@ -104,8 +102,118 @@ breakdown {
 	float: left;
 }
 
+join {
+	width: 200px;
+	height: 100px;
+	float: right;
+	padding-right: 35px;
+}
+
+.button {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif, #fff;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+.blue {
+	color: #fff;
+	border: solid 1px #09F;
+	background: #09F;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3CF), to(#09F));
+	background: -moz-linear-gradient(top,  #39F,  #3CF);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#3CF', endColorstr='#09F');
+}
+.blue:hover {
+	background: #09F;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3CF), to(#09F));
+	background: -moz-linear-gradient(top,  #39F,  #9CF);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#3CF', endColorstr='#09F');
+}
+.blue:active {
+	color: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#9CF), to(#999));
+	background: -moz-linear-gradient(top,  #9CF,  #999);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#9CF', endColorstr='#999');
+}
+
 gallery {
-	width: 300px;
-	height: 230px;
+	width: 510px;
+	height: 50px;
+	padding-left: 15px;
+	padding-top: 20px;
 	float: left;
+}
+
+h2 {
+	font-family: "911 Porscha";
+	color: #090;
+	font-size: 24px;
+	text-align: left;
+	line-height: normal;
+	text-shadow: 2px 2px #000;
+	overflow: hidden;
+}
+
+Attributes {
+	width: 320px;
+	height:250px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000;
+	padding-top: 20px;
+	float: left;
+}
+
+h3 {
+	font-family: "911 Porscha";
+	color: #090;
+	font-size: 24px;
+	text-align: center;
+	text-shadow: 2px 2px #000;
+}
+
+ol {
+	list-style-type: circle;
+	list-style-position: inside;
+	line-height: 35px;
+	text-align: left;
+}
+
+topic {
+	width: 825px;
+	height: 300px;
+	background-color: #C3C;
+	padding-left: 25px;
+	float: left;
+}
+
+h4 {
+	font-family: "911 Porscha";
+	color: #090;
+	font-size: 24px;
+	text-align: left;
+	text-shadow: 2px 2px #000;
+	padding-top: 0px;
+}
+
+div {
+	-moz-column-count: 3;
 }
