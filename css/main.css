@@ -367,6 +367,10 @@ input:focus {
 		width: auto;
 		height: auto;
 	}
+	
+	.column {
+	-moz-column-count: 2;	
+	}
 
 	join {
 		display: none;
@@ -418,6 +422,10 @@ input:focus {
 		width: auto;
 		float: left;
 		height: auto;
+	}
+	
+	.column {
+	-moz-column-count: 1;	
 	}
 	
 	.signup {
