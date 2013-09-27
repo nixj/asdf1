@@ -8,7 +8,8 @@
 </head>
 <body>
     
-     <wrapper>
+   <wrapper>
+   
      <container>
      <img src="images/Yuki_Club_Logo.jpg" align="left">
      <h1>Fanclub</h1>
@@ -22,14 +23,14 @@
      	</ul>
      </nav>
     
-     <aside>
-       <character><img src="images/Yuki_Main.png" align="left" alt="Yuki with book"></character>
-       <name>Yuki Nagato</name>
+     <section class="aside">
+       <element class="character"><img src="images/Yuki_Main.png" align="left" alt="Yuki with book"></element>
+       <element class="name">Yuki Nagato</element>
        <p>Created by the Data Integration Thought Entity for the purpose of oberserving the activities of Haruhi Suzumiya. This reserved and introverted bookworm's main mission is to protect the world by preventing Miss Suzumiya from using her godlike powers. With help from her SOS Brigade friends, Yuki may just yet save us all.</p>
        <join><a href="#" class="button blue">Join Now&#33;</a></join>
-	 </aside>
+	 </section>
      
-     <gallery>   
+     <section class="gallery">   
      <h2>Gallery</h2>
      	<ul>
         	<li><a href="images/Yuki_Headphones.jpg" title="Yuki with Headphones"><img src="images/Yuki_Headphones.jpg" alt="Yuki with Headphones" width="90" height="90"></a></li>
@@ -37,26 +38,113 @@
             <li><a href="images/Yuki_x_Guitar.jpg" title="Yuki with Guitar"><img src="images/Yuki_x_Guitar.jpg" alt="Yuki with Guitar" width="90" height="90"></a></li>
             <li><a href="images/Yuki_x_BunnyEars.jpg" title="Yuki with Ears"><img src="images/Yuki_x_BunnyEars.jpg" alt="Yuki with Ears" width="70" height="90"></a></li>
   	</ul>
-     </gallery>
+     </section>
      
-     <attributes>
+     <section class="attributes">
      <h3>Attributes</h3>
      	<ol>
         	<li>Height: 5ft .5in</li>
             <li>Age: Technically only 3-4 years</li>
             <li>Grade: 11th (Junior)</li>
         </ol>
-     </attributes>
+     </section>
      
-     <article>
+     <section class="article">
      <h4>Appearances</h4>
-     <div>
+     <div class="column">
         <p>Over the years, Nagato has made many appearances throughout tv. She first appeared as a supporting character in "The Melancholy of Haruhi Suzumiya as the quiet girl from the literary club who willingly chose to take part as a member of the SOS Brigade. She is voiced by Minori Chihara in Japan and Michelle Ruff in the U.S.</p>
         <p>After TMOHS, she starred alongside the Brigade again in the second season of Haruhi Suzumiya as well as "The Adventures of Haruhi-Chan and would later go on to get her own spinoff in the manga series "The Disappearance of Nagato Yuki-chan."</p>
         <p>Of course, being a humanoid interface is not without its perks. Nagato has displayed superhuman strength, agility, and stamina and appears to be immune to pain. She also has sensory powers and mental abilities like playing the guitar without ever practicing as well as data powers that come with being a humanoid interface.</p>
      </div>
-     </article>
-     </wrapper>
+     </section>
+     
+     <section class="membership">
+     
+     	<h5>Membership Options and Sign Up</h3>
+        
+        <section class="options">
+     	<table summary="Membership Options and Benefits">
+    		<tr>
+    	  		<th>FREE</th>
+          		<th class="vip">VIP</th>
+        	</tr>
+        	<tr class="odd">
+          		<td>Member Profile</td>
+          		<td>Special Yuki Fanclub Patch</td>
+        	</tr>
+        	<tr class="even">
+          		<td>SD Wallpapers</td>
+          		<td>Premium HD Wallpapers</td>
+        	</tr>
+        	<tr class="odd">
+          		<td>Basic Avatar Icons</td>
+          		<td>Exclusive Avatar Icons</td>
+        	</tr>
+        	<tr class="even">
+          		<td>Absolutely Free</td>
+          		<td>Lifetime Membership Only &#36;4.95</td>
+        	</tr>
+    	</table>
+        </section>
+    
+   <section class="signup">
+   <form method="post" action="mailto:johnny.nix@fullsail.edu">
+
+    <div>
+	   <label for="name_first">First Name</label>
+       <br />
+	   <input type="text" name="name_first" id="name_first" />
+    </div>
+	<br />
+    <div>
+	   <label for="name_last">Last Name</label>
+	   <br/>
+       <input type="text" name="name_last" id="name_last" />
+    </div>
+	<br />
+    <div>
+	   <label for="email">Email Address</label>
+       <br />
+	   <input type="text" name="email" id="email" />
+    </div>
+	<br />
+    <div>
+	   <label for="username">Username</label>
+       <br />
+	   <input type="text" name="username" id="username" />
+    </div>
+    <br />
+    <div>
+	   <label for="Choose_Plan">Choose A Membership Plan</label>
+    </div>
+
+    <div>
+	   <select name="Choose_Plan" id="Choose_Plan">
+        <option>Basic - Free</option>
+        <option>VIP - $4.95</option>
+       </select>
+    </div>
+
+    <div>
+	   <p>
+         <input type="checkbox" name="receive_emails" id="receive_emails" />
+	     <label for="receive_emails">I would like to receive email updates</label>
+       </p>
+    </div>
+
+    <div>
+	   <button type="submit" name="submit" class="button">Sign Up</button>
+    </div>
+
+ </form>
+ </section>
+
+     </section>
+     
+     <section class="footer">
+     </section>
+   
+   </wrapper>
      
 </body>
 </html>
