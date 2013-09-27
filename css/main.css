@@ -414,6 +414,10 @@ input:focus {
 		height: auto;
 	}
 	
+	.column {
+	-moz-column-count: 1;	
+	}
+	
 	nav {
 		display: none;
 	}
